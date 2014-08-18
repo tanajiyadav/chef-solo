@@ -1,0 +1,13 @@
+{
+  "name": "wfxmc",
+  "description": "The base role for systems that serve wfxmc server.",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+
+  "run_list" : [
+  	"recipe[common]",
+  	"recipe[common::yumrepo]",
+  	"recipe[common::set_env]",
+  	"recipe[common::sshkey]"
+  ]
+}

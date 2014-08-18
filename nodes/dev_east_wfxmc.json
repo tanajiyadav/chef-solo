@@ -1,0 +1,11 @@
+{
+  "run_list": [
+  "role[wfxmc]"
+  ],
+
+  "sshkeys": [],
+
+  "automatic": {
+    "ipaddress": "dev_east_wfxmc"
+  }
+}

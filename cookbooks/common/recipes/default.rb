@@ -6,9 +6,12 @@
 #
 # All rights reserved - Do Not Redistribute
 
-%w{ wget git telnet gcc pcre pcre-devel openssl-devel }.each do | pkg |
+%w{ perl zip vim-enhanced wget git telnet gcc pcre pcre-devel openssl-devel }.each do | pkg |
   package pkg do   
     action :install
   end
 end
 
+package "openssl" do
+  action :upgrade
+end

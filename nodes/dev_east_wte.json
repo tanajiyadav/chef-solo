@@ -1,0 +1,8 @@
+{
+  "run_list": [
+  "role[wte]"
+  ],
+  "automatic": {
+    "ipaddress": "dev_east_wte"
+  }
+}

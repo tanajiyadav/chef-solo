@@ -1,0 +1,8 @@
+{
+  "run_list": [
+  "role[brandfx]"
+  ],
+  "automatic": {
+    "ipaddress": "dev_east_brandfx"
+  }
+}

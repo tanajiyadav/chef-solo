@@ -1,9 +1,9 @@
 {
-
   "environment": "dev",
   "run_list": [
   "role[db]"
   ],
+  
   "automatic": {
     "ipaddress": "dev_east_db"
   }
